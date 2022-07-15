@@ -2,7 +2,7 @@ name: Update User Name
 
 on:
   schedule:
-    - cron: "*/2 * * * *" #run every at 17:00:00s UTC / 00.00 GMT +7 / 01.00 GMT +8
+    - cron: "*/5 * * * *" #run every at 17:00:00s UTC / 00.00 GMT +7 / 01.00 GMT +8
 
 jobs:
   run:
